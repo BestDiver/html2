@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div>
+        <span>1. 이건 빨강</span>
+        <p>2. 이건 빨강이 아닙니다</p>
+        <p>
+
+
+            <span>3. 이건 빨강</span>
+        </p>
+        <span>4. 이건 빨강</span>
+
+
+    </div>
+
+
+    <p>
+        <span>5. 이건 빨강</span>
+    </p>
+
+
+</body>
+
+
+<style>
+    /* 자손 결합자 div span중 자식들까지 빨강 */
+    div span {
+        color: blue;
+    }
+
+
+    /* 자식 결합자 */
+    div > span {
+        color: red;
+    }
+
+
+
+</style>
+
+
+</html>
+
+

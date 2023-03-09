@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>p태그의 앞에 있기 때문에 이건 빨강이 아니다</span>
+    <p>여기 문단이 있습니다</p>
+    <span>p태그와 형제기 때문에 이건 빨강</span>
+    <b>더 많은 코드도 있습니다</b>
+    <span>p태그와 인접한 형제가 아니기 때문에  빨강이 아님</span>
+</body>
+<style>
+     p + span{
+        color: red;
+    }
+
+/* 형제
+    p ~ span{
+        color: red;
+    } */
+
+</style>
+
+</html>
